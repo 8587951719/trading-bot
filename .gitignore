@@ -1,7 +1,24 @@
-cd trading-bot
-git init
-git add .
-git commit -m "First commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/trading-bot.git
-git push -u origin main
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Environment variables
+.env
+.secrets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+*.csv
+*.json
+*.db
